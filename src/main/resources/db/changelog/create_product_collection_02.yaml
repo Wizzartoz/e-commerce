@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+    id: 2
+    author: shop
+    comment: create product collection
+    changes:
+      - createCollection:
+        collectionName: product
+
+  - changeSet:
+      id: 3
+      author: yourname
+      changes:
+        - insertOne:
+            collection: order
+            document:
+              name: value1
+              surname: value2

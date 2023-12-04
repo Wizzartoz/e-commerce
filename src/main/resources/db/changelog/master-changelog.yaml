@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/create_order_collection_01.yaml
+  - include:
+      file: classpath:/db/changelog/create_product_collection_01.yaml

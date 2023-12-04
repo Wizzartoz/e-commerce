@@ -1,0 +1,1 @@
+monolithic microservice with rigid isolation between modules

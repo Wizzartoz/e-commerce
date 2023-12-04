@@ -1,0 +1,16 @@
+logging:
+  level:
+    root: DEBUG
+
+spring:
+  data:
+    mongodb:
+      database:
+      username:
+      password:
+      host: localhost
+      port: 27017
+      auto-index-creation: true
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/master-changelog.yaml
